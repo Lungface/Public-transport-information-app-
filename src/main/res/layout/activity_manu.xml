@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- ListView -->
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/button_container" />
+
+    <!-- Container for ImageButtons -->
+    <LinearLayout
+        android:id="@+id/button_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#E3EB96">
+
+        <ImageButton
+            android:id="@+id/locaBtn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#00BCD4"
+            android:src="@android:drawable/ic_menu_mylocation" />
+
+        <ImageButton
+            android:id="@+id/SearBtn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="48dp"
+            android:background="#6D6A6A"
+            android:src="@android:drawable/ic_menu_search" />
+
+        <ImageButton
+            android:id="@+id/FavBtn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="48dp"
+            android:background="#F44336"
+            android:src="@android:drawable/star_big_off" />
+    </LinearLayout>
+
+</RelativeLayout>

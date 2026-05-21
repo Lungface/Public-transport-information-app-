@@ -1,0 +1,60 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Top container with input field and button -->
+    <LinearLayout
+        android:id="@+id/top_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/inputstr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/input"
+            android:layout_marginEnd="8dp" />
+
+        <EditText
+            android:id="@+id/input"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/input_route_here" />
+
+        <Button
+            android:id="@+id/EnterButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enter"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+
+    <!-- ListView for displaying bus information -->
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top_container" />
+
+    <!-- Bottom container with Back button -->
+    <LinearLayout
+        android:id="@+id/button_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#E3EB96"
+        android:gravity="center"> <!-- Center the content inside the LinearLayout -->
+
+        <Button
+            android:id="@+id/Backbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back" />
+    </LinearLayout>
+
+</RelativeLayout>

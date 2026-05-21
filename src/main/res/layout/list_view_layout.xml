@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"> <!-- Stretch the second column -->
+
+        <TableRow>
+            <TextView
+                android:id="@+id/routeName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/route"
+                android:textColor="#3700B3"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/route"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textAlignment="textStart"
+                android:textColor="#3700B3"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/origName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#03DAC5"
+                android:textSize="16sp"
+                android:text="@string/start" />
+
+            <TextView
+                android:id="@+id/orig"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textAlignment="textStart"
+                android:textSize="16sp"
+                android:textColor="#03DAC5" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/destName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#888888"
+                android:textSize="16sp"
+                android:text="@string/end" />
+
+            <TextView
+                android:id="@+id/dest"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textColor="#888888"
+                android:textSize="16sp"
+                android:textAlignment="textStart" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

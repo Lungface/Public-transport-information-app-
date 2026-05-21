@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Public transport route information app</string>
+    <string name="route">Route:</string>
+    <string name="start">Start:</string>
+    <string name="end">End:</string>
+    <string name="input">Input:</string>
+    <string name="input_route_here">Input route here</string>
+    <string name="enter">Enter</string>
+    <string name="back">Back</string>
+    <string name="back1">Back</string>
+    <string name="back2">back</string>
+
+</resources>

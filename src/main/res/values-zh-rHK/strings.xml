@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">s1371387</string>
+    <string name="route">路線:</string>
+    <string name="start">起點:</string>
+    <string name="end">終點:</string>
+    <string name="input">輸入:</string>
+    <string name="input_route_here">在此輸入</string>
+    <string name="enter">確定</string>
+    <string name="back">返回</string>
+    <string name="back1">返回</string>
+    <string name="back2">返回</string>
+</resources>
